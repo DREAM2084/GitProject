@@ -1,0 +1,15 @@
+{
+  "name": "project4-github-pages-deploy",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "项目四：基于 GitHub Pages + GitHub Actions 的自动化部署示例",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.3.4"
+  }
+}
